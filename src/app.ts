@@ -1,13 +1,16 @@
-import { envs } from './config/envs';
-import { Server } from './presentation/server';
+import { envs } from "./config/envs";
+import { Server } from "./presentation/server";
 
 (async () => {
-    main()
+    main();
 })();
 
-function main(){
-    const server = new Server({port: envs.PORT, public_path: envs.PUBLIC_PATH})
-    server.start()
+function main() {
+    const server = new Server({
+        port: envs.PORT,
+        public_path: envs.PUBLIC_PATH,
+    });
+    server.start();
 }
 
 //! Todo lo que es express va en la capa de presentación
