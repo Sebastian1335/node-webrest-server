@@ -1,2 +1,5 @@
 export * from './dtos/todos/create-todo.dto'
 export * from './dtos/todos/update-todo.dto'
+export * from './datasources/todo.datasource'
+export * from './repositories/todo.repository'
+export * from './entities/todo.entity'
