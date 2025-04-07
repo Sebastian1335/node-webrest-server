@@ -4,3 +4,5 @@
 2. Ejecutar el comando ``` docker compose up -d```
 
 wazaaass
+
+GAAAAA
